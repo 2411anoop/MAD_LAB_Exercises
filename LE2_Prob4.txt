@@ -1,0 +1,11 @@
+class One {
+    private int x;
+
+    public One(int x) {
+        this.x = x;
+    }
+}
+
+class Two extends One {
+
+}

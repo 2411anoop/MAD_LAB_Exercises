@@ -1,0 +1,25 @@
+class Mother {
+    int x;
+
+    void show() {
+        System.out.println("Value of x is: " + x);
+    }
+}
+
+class Child extends Mother {
+    void display() {
+        System.out.println("This is the Child class.");
+    }
+}
+
+class Application {
+    public static void main(String[] args) {
+        Child childObj = new Child();
+
+        childObj.x = 5;
+
+        childObj.show();
+
+        childObj.display();
+    }
+}
